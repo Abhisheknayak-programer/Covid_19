@@ -1,5 +1,5 @@
 function updatemap() {
-    fetch("/data2.json")
+    fetch("data2.json")
         .then(response => response.json())
         .then(rsp => {
             console.log(rsp.data)
